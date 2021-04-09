@@ -1,0 +1,13 @@
+{
+  "name": "random-vin-api",
+  "version": "1.0.0",
+  "description": "Random VIN API",
+  "main": "functions/vin.js",
+  "repository": "git@github.com:gareys/random-vin-api.git",
+  "author": "Garey Simpson <webdesignator@gmail.com>",
+  "license": "UNLICENSED",
+  "private": false,
+  "dependencies": {
+    "puppeteer": "^8.0.0"
+  }
+}

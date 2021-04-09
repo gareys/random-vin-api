@@ -1,7 +1,9 @@
-const puppeteer = require('puppeteer');
+const puppeteer = require('puppeteer-lambda');
 
 exports.handler = async () => {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.getBrowser({
+    headless: true,
+  });
   const page = await browser.newPage();
   await page.goto('https://randomvin.com');
   await page.waitForFunction(

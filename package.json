@@ -8,6 +8,6 @@
   "license": "UNLICENSED",
   "private": false,
   "dependencies": {
-    "puppeteer": "^8.0.0"
+    "puppeteer-lambda": "^1.1.3"
   }
 }
